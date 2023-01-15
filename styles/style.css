@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
 
 /* header start */  
 header{
@@ -304,8 +310,9 @@ footer{
 /* media */
 @media only screen and (max-width:688px){
     body{
-        width: 100%;
+        /* width: 100%; */
         /* background-color: red; */
+        /* overflow-x: hidden; */
     } 
     .navarchi h2{
         margin-right: 50px;
