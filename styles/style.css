@@ -123,6 +123,7 @@ header{
 .feaexp{
     display: flex;
     margin-left: 200px;margin-top: 80px;
+    position: absolute;
 }
 
 .features{
@@ -160,8 +161,26 @@ header{
 
 .exprncimg{
     height: 674px;
+    position: absolute;
 }
 
 .rafi{
     margin-left: 15px;
+}
+
+.feaexp{
+    height: 75px;
+    margin-right: 50px;
+}
+.feaexpbtn{
+    position: relative;
+    font-size:large;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    width: 170px;
+    height: 100px;
+    margin-left: -40px;
+    margin-top: 610px;
 }
