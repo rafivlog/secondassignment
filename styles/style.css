@@ -300,3 +300,202 @@ footer{
     margin-bottom: 50px;
 }
 
+
+/* media */
+@media only screen and (max-width:688px){
+    body{
+        width: 100%;
+        /* background-color: red; */
+    } 
+    .navarchi h2{
+        margin-right: 50px;
+        margin-left: -40px;
+    }
+    .navmenu{
+        margin-left: 35px;
+    }
+    .navbuttun{
+        width: 50px;
+    }
+    .containreUimage{
+        width: 100%;
+        object-fit: cover;
+        object-position:center;
+    }
+
+    .containerbutton{
+        margin-left: -15px;
+    }
+
+    .menusecond{
+        width: 400px;
+    }
+
+    .menusecondpara{
+        margin-left: -15px;
+    }
+
+    .three , .one{
+        margin-left: -16px;
+    }
+
+    .navbar{
+        flex-direction: column;  
+    }
+
+
+
+
+
+
+
+    
+
+    .menuvaag{
+        flex-direction: column;
+    }
+
+    .menuimg{
+        margin-right: 60px;
+    }
+
+    .menufirst{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+
+    }
+
+    .menusecond{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+
+
+
+    .feaexp{
+        /* width: 100%; */
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .feature-1{
+        margin-left: -190px;
+    }
+
+    .feature-2{
+        margin-left: -190px;
+        height: 200px;
+        width: 340px;
+        margin-bottom: 50px ;
+    }
+
+    .exprncimg{
+        position: relative;
+        height: 350px;
+        width: 300px;
+        margin-right: -90px -90px;
+    }
+
+    /* .somefactsicons{
+        grid-template-columns: repeat(1,1fr);
+        position: relative;
+        margin-top: 700px;
+        margin-left: -5px;
+    }
+
+    .somefactspara{
+        position: relative;
+        margin-top: 900px;
+    } */
+
+    .experience{
+        margin-left: -185px;
+    }
+
+    .feaexpbtn{
+        margin-top: -55px;
+    }
+
+
+    .somefacts{
+        /* position: relative; */
+        margin-left: -170px;
+        margin-top: 1850px;
+    }
+
+    .somefactspara{
+        padding: 0px;
+    }
+
+    .somefatcsheader{
+        margin-left: -20px;
+    }
+
+    
+
+    .somefactsicons{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 10px;
+         /* margin-left: 2px; */
+        grid-column-gap: 25px
+    }
+
+    .icons-1{
+        margin-left: -100px;
+    }
+
+    .greatest{
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .architecture{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .architectimages{
+        margin-left: -250px;
+        margin-top: -45px;
+        width: 340px;
+    }
+
+    .sponsoricon{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 165px;
+        grid-row-gap: 20px;
+    }
+
+    footer{
+        width: 350px;
+        margin-left:0px;
+        padding: 18px;
+    }
+
+
+
+
+
+    /* .somefacts{
+        display: none;
+    } */
+    /* .architecture{
+        display: none;
+    } */
+    /* .sponsors{
+        display: none;
+    } */
+
+    /* footer{
+        display: none;
+    } */
+
+
+
+    
+   
+
+
+
+}
