@@ -59,6 +59,10 @@ header{
     margin-top: 35px;
     margin-bottom: 25px;
 }
+.marginleft{
+    margin-left: 60px;
+}
+
 .containerheader1{
     margin-left: 25px;
 }
@@ -218,3 +222,54 @@ header{
     height: 150px;
     width: 150px;
 }
+
+
+
+.sponsorheader{
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.sponsors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.oursponsors{
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.sponsoricon{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 55px;
+}
+.sponosorimage{
+    filter: grayscale(100%);
+}
+
+.icons-1:hover{
+    background-color: antiquewhite;
+    rotate: 30deg;
+    height: 180px;
+    width: 180px;
+}
+
+
+
+
+footer{
+    background-color: bisque;
+    height: 45px;
+    width: 1200px;
+    margin-left: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
