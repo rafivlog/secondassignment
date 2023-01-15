@@ -224,6 +224,31 @@ header{
 }
 
 
+/* special section start */
+
+.architecture{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,550px);
+    margin-left: 250px;
+    grid-row-gap: 15px;
+}
+
+.architectimages{
+    border: none;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    object-position: 10px;
+   
+}
+
+.greatest{
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
 /* sponsors start */
 
 .sponsorheader{
@@ -248,15 +273,15 @@ header{
     grid-template-columns: repeat(5,1fr);
     grid-column-gap: 55px;
 }
+/* use for image black&white */
 .sponosorimage{
     filter: grayscale(100%);
 }
 
 .icons-1:hover{
     background-color: antiquewhite;
-    rotate: 30deg;
-    height: 180px;
-    width: 180px;
+    transition: all 0.5s linear;
+    transform: scale(1.1);
 }
 
 /* menu end */
