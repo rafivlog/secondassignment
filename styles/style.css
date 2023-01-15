@@ -373,12 +373,18 @@ footer{
     }
 
     .menusecond{
-        margin-left: 30px;
+        /* margin-left: 30px; */
         margin-top: 15px;
     }
 
+    .marginleft{
+        margin-left: 0px;
+    }
 
 
+    .features{
+        margin-right: 0px;
+    }
 
     .feaexp{
         /* width: 100%; */
