@@ -224,6 +224,7 @@ header{
 }
 
 
+/* sponsors start */
 
 .sponsorheader{
     margin-bottom: 10px;
@@ -258,9 +259,10 @@ header{
     width: 180px;
 }
 
+/* menu end */
 
 
-
+/* footer start */
 footer{
     background-color: bisque;
     height: 45px;
