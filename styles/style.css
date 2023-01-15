@@ -333,7 +333,7 @@ footer{
     }
 
     .containerbutton{
-        margin-left: -15px;
+        margin-left: 5px;
     }
 
     .menusecond{
@@ -432,7 +432,7 @@ footer{
 
     .feaexpbtn{
         margin-top: -55px;
-        margin-left: -5px;
+        margin-left: 5px;
     }
 
 
@@ -463,6 +463,8 @@ footer{
         /* margin-left: -100px; */
         height: 100px;
         width: 100px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
     }
 
     .greatest{
