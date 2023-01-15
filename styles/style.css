@@ -290,6 +290,10 @@ header{
     transform: scale(1.1);
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /* menu end */
 
 
@@ -317,7 +321,7 @@ footer{
         /* overflow-x: hidden; */
     } 
     .navarchi h2{
-        margin-right: 50px;
+        margin-right: 0px;
         margin-left: 5px;
     }
     .navmenu{
@@ -461,10 +465,11 @@ footer{
 
     .icons-1{
         /* margin-left: -100px; */
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
+        margin-left: 150px;
     }
 
     .greatest{
