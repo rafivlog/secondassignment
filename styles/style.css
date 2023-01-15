@@ -318,10 +318,10 @@ footer{
     } 
     .navarchi h2{
         margin-right: 50px;
-        margin-left: -20px;
+        margin-left: 5px;
     }
     .navmenu{
-        margin-left: 35px;
+        margin-left: 25px;
     }
     .navbuttun{
         width: 50px;
@@ -347,7 +347,7 @@ footer{
     }
 
     .three , .one{
-        margin-left: 5px;
+        margin-left: 1px;
     }
 
     .navbar{
@@ -432,7 +432,7 @@ footer{
 
     .feaexpbtn{
         margin-top: -55px;
-        margin-left: -30px;
+        margin-left: -5px;
     }
 
 
@@ -456,11 +456,13 @@ footer{
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 10px;
          /* margin-left: 2px; */
-        grid-column-gap: 25px
+        grid-column-gap: 25px;
     }
 
     .icons-1{
-        margin-left: -100px;
+        /* margin-left: -100px; */
+        height: 100px;
+        width: 100px;
     }
 
     .greatest{
